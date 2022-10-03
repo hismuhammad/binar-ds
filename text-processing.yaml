@@ -1,0 +1,16 @@
+tags:
+  - name: Text Processing API
+get:
+  description: Input Raw Text yang akan diproses
+parameters:
+  - name: raw_text
+    in: query
+    required: true
+    type: string
+responses:
+  '200':
+    description: Successful response
+  '400':
+    description: Bad Request
+  '500':
+    description: Internal Server Error
